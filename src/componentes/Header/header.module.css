@@ -28,6 +28,10 @@
     color: var(--gray-100);
 }
 
+.newTaskForm input:focus{
+    outline: none;
+}
+
 .newTaskForm input::placeholder{
     color: var(--gray-300);
 }
